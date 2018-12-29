@@ -1,9 +1,3 @@
-```javascript
-	
-const aopify = require('aopifyjs');
-
-```
-
 <img src="./logo.png" width="232" align="middle" > 
 
 # Agent-oriented programming in NodeJS.
@@ -12,6 +6,12 @@ Multi-agent system in the web. **Still in beta phase.**
 ## Installation
 
 ` npm i aoipifyjs `
+
+```javascript
+	
+const aopify = require('aopifyjs');
+
+```
 
 
 ## Package Dependencies
