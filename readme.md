@@ -3,6 +3,7 @@
 # Agent-oriented programming in NodeJS.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/30d2b69a8b1f4c2d9de39c6d22fd4651)](https://app.codacy.com/app/patelotech/aopifyjs?utm_source=github.com&utm_medium=referral&utm_content=patelotech/aopifyjs&utm_campaign=Badge_Grade_Dashboard)
+[![Known Vulnerabilities](https://snyk.io/test/github/patelotech/aopifyjs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/patelotech/aopifyjs?targetFile=package.json)
 
 Multi-agent system in the web. **Still in beta phase.**
 
