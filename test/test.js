@@ -1,11 +1,12 @@
 const assert = require('assert');
 
 const Agent = require('../lib/index.js');
+const EventEmitter = require('events');
 
 const jorgito = new Agent('jorgito');
 const juana = new Agent('juana');
 
-const EventEmitter = require('events');
+
 
 
 juana.listen({name: 'event'}, jorgito, () => { console.log('JUANA: Hola Jorgito')});
@@ -35,6 +36,7 @@ describe('StartJorgito', () => {
 describe('EmitbutDeath2', () => {
   it('It should return an error alert because Juana is not alive', () => {
   console.log('JORGITO: Hola Juana');
+  jorgito.tell({name: 'event', msg: 'Hola Juana'}, juana);
     assert.equal('test', 'test');
   });
 });

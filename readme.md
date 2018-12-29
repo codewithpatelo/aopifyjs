@@ -21,6 +21,23 @@ const aopify = require('aopifyjs');
 
 ```
 
+## Example Usage
+
+```javascript
+const jorgito = new Agent('jorgito');
+const juana = new Agent('juana');
+
+jorgito.start();
+juana.start();
+
+juana.listen({name: 'greeting'}, jorgito, () => { console.log('JUANA: Hi Jorgito')});
+jorgito.tell({name: 'greeting', msg: 'Hi Juana'}, juana);
+
+jorgito.kill();
+juana.kill();
+
+```
+
 
 ## Package Dependencies
 
