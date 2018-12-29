@@ -4,9 +4,7 @@ const aopify = require('aopifyjs');
 
 ```
 
-<img src="./logo.png" width="232" > 
-
-# AOIPIFY JS
+<img src="./logo.png" width="464" > 
 
 Multi-agent system in the web. **Still in beta phase.**
 
