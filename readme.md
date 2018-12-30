@@ -6,6 +6,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/patelotech/aopifyjs/badge.svg?targetFile=package.json)](https://snyk.io/test/github/patelotech/aopifyjs?targetFile=package.json)
 [![dependencies Status](https://david-dm.org/patelotech/aopifyjs/status.svg)](https://david-dm.org/patelotech/aopifyjs)
 [![build](https://travis-ci.org/patelotech/aopifyjs.svg?branch=master)](https://travis-ci.org/patelotech/aopifyjs)
+[![Coverage Status](https://coveralls.io/repos/github/patelotech/aopifyjs/badge.svg?branch=master)](https://coveralls.io/github/patelotech/aopifyjs?branch=master)
 [![license](https://img.shields.io/badge/license-GNUv3-blue.svg)](https://github.com/patelotech/aopifyjs/blob/master/LICENSE.md) [![Greenkeeper badge](https://badges.greenkeeper.io/patelotech/aopifyjs.svg)](https://greenkeeper.io/)
 
 
@@ -17,7 +18,7 @@ Multi-agent system in the web. **Still in beta phase.**
 
 ```javascript
 	
-const aopify = require('aopifyjs');
+const Agent = require('aopifyjs');
 
 ```
 
