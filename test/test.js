@@ -9,7 +9,6 @@ const juana = new Agent('juana');
 
 
 
-juana.listen({name: 'event'}, jorgito, () => { console.log('JUANA: Hola Jorgito')});
 
 
 describe('Init', () => {

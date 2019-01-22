@@ -1,6 +1,6 @@
 {
   "name": "aopifyjs",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Agent-oriented programming in Javascript.",
   "main": "./lib/index.js",
   "scripts": {
@@ -47,6 +47,7 @@
     "nyc": "^13.1.0"
   },
   "dependencies": {
+    "capitalizefirstletterofstring": "^1.1.0",
     "moment": "^2.23.0",
     "topsis": "^1.2.11",
     "uuid-v4": "^0.1.0"
