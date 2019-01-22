@@ -82,3 +82,8 @@ GNU v3
 -   Boissier, O., Bordini, R. H., Hübner, J. F., Ricci, A., & Santi, A. (2013). Multi-agent oriented programming with  JaCaMo. Science of Computer Programming, 78(6), 747–761. doi:10.1016/j.scico.2011.10.004
 -   Calenda, T., De Benedetti, M., Messina, F., Pappalardo, G., & Santoro, C. (2016). AgentSimJS: A Web-based Multi-Agent Simulator with 3D Capabilities. In WOA (pp. 117-123).
 
+
+
+
+Copyright (C) 2019 Patricio J. Gerpe
+Copyleft (C) 2019 Patricio J. Gerpe
