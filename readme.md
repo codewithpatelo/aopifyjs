@@ -83,26 +83,8 @@ GNU v3
 -   Calenda, T., De Benedetti, M., Messina, F., Pappalardo, G., & Santoro, C. (2016). AgentSimJS: A Web-based Multi-Agent Simulator with 3D Capabilities. In WOA (pp. 117-123).
 
 
-<div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn"
-     data-address="1CgTqrv2VMo5v88hcN2x6EcfjHiCYt1QG5"
-     data-shared="false">
-    <div class="blockchain stage-begin">
-        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
-    </div>
-    <div class="blockchain stage-loading" style="text-align:center">
-        <img src="https://blockchain.info/Resources/loading-large.gif"/>
-    </div>
-    <div class="blockchain stage-ready">
-         <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
-         <p align="center" class="qr-code"></p>
-    </div>
-    <div class="blockchain stage-paid">
-         Donation of <b>[[value]] BTC</b> Received. Thank You.
-    </div>
-    <div class="blockchain stage-error">
-        <font color="red">[[error]]</font>
-    </div>
-</div>
+<div id="coinwidget" data-icon="true" data-type="primary" data-wallet="1CgTqrv2VMo5v88hcN2x6EcfjHiCYt1QG5" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ivandiazwm/coinwidget@0.1.1/builds/full.js" charset="utf-8"></script>
 
 
 Copyright (C) 2019 Patricio J. Gerpe
