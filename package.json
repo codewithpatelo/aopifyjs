@@ -1,6 +1,6 @@
 {
   "name": "aopifyjs",
-  "version": "0.1.9",
+  "version": "0.1.12",
   "description": "Agent-oriented programming in Javascript.",
   "main": "./lib/index.js",
   "scripts": {
