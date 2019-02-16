@@ -83,9 +83,6 @@ GNU v3
 -   Calenda, T., De Benedetti, M., Messina, F., Pappalardo, G., & Santoro, C. (2016). AgentSimJS: A Web-based Multi-Agent Simulator with 3D Capabilities. In WOA (pp. 117-123).
 
 
-<div id="coinwidget" data-icon="true" data-type="primary" data-wallet="1CgTqrv2VMo5v88hcN2x6EcfjHiCYt1QG5" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ivandiazwm/coinwidget@0.1.1/builds/full.js" charset="utf-8"></script>
-
 
 Copyright (C) 2019 Patricio J. Gerpe
 Copyleft (C) 2019 Patricio J. Gerpe
