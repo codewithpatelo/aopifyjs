@@ -9,8 +9,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/patelotech/aopifyjs/badge.svg?branch=master)](https://coveralls.io/github/patelotech/aopifyjs?branch=master)
 [![license](https://img.shields.io/badge/license-GNUv3-blue.svg)](https://github.com/patelotech/aopifyjs/blob/master/LICENSE.md) [![Greenkeeper badge](https://badges.greenkeeper.io/patelotech/aopifyjs.svg)](https://greenkeeper.io/)
 
-<img href="https://www.patreon.com/join/patelotech?" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" > 
-
+<a href="https://www.patreon.com/join/patelotech?"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" > </a>
 
 Multi-agent system in the web. **Still in beta phase.**
 
