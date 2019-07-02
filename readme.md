@@ -70,6 +70,20 @@ GNU v3
 -   Error check: `npm run lint`
 -   Error fix:  `npm run lint` or `npm run lint -- --fix`
 
+## Package roadmap
+
+-   [x] Agent Entities
+-   [x] TOPSIS Support
+-   [x] AHP Support
+-   [ ] Markov DP Support
+-   [ ] Montecarlo simulation Support
+-   [ ] Neutrosophic-Defeasible Inference System
+-   [ ] Homeoestatic Needs system
+-   [ ] Hierarchical Reinforcement Learning
+-   [ ] Deep Reinforcement Learning
+-   [ ] Ontologies system
+
+
 ## Bibliography
 
 -   Shoham, Y. (1993). Agent-Oriented Programming. Artificial Intelligence. pp. 51–92
@@ -84,6 +98,5 @@ GNU v3
 -   Calenda, T., De Benedetti, M., Messina, F., Pappalardo, G., & Santoro, C. (2016). AgentSimJS: A Web-based Multi-Agent Simulator with 3D Capabilities. In WOA (pp. 117-123).
 
 
-
-Copyright (C) 2019 Patricio J. Gerpe
+Copyright (C) 2019 Patricio J. Gerpe, Enpov
 Copyleft (C) 2019 Patricio J. Gerpe
