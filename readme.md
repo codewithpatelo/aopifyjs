@@ -78,10 +78,14 @@ GNU v3
 -   [ ] Markov DP Support
 -   [ ] Montecarlo simulation Support
 -   [ ] Neutrosophic-Defeasible Inference System
--   [ ] Homeoestatic Needs system
+-   [ ] Homeoestatic Motives system
+-   [ ] Well-being Tetraplet model synthesis system
+-   [ ] Prefrontal-Cortex Meta-Reinforcement-Learning
 -   [ ] Hierarchical Reinforcement Learning
 -   [ ] Deep Reinforcement Learning
 -   [ ] Ontologies system
+-   [ ] Auto Operation Research
+-   [ ] Auto Deep Reinforcement Learning
 
 
 ## Bibliography
