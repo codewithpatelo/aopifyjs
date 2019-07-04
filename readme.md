@@ -77,16 +77,22 @@ GNU v3
 -   [x] AHP Support
 -   [ ] Markov DP Support
 -   [ ] Montecarlo simulation Support
--   [ ] Neutrosophic-Defeasible-Doxatic Inference System
--   [ ] FIPA adaptation
+-   [ ] Neutrosophic-Defeasible Inference System
+-   [ ] Doxatic Logic BDI System
+-   [ ] FIPA adaptation I (Communication Acts)
 -   [ ] Homeoestatic Motives system
 -   [ ] Well-being Tetraplet model synthesis system
 -   [ ] Prefrontal-Cortex Meta-Reinforcement-Learning Support
+-   [ ] Motivational Profiles system (Intrinsic vs Extrinsic appreciation, %  of reward discounting, Cooperation vs Competition tendence)
+-   [ ] Ethical Framework system
 -   [ ] Hierarchical Reinforcement Learning Support
 -   [ ] Deep Reinforcement Learning Support
 -   [ ] Ontologies system Support
+-   [ ] FIPA adaptation II (BDI + Propositional Acts)
 -   [ ] Auto Operation Research
 -   [ ] Auto Deep Reinforcement Learning
+-   [ ] Emotional Valence system
+-   [ ] Emotion Modeling system
 
 
 ## Bibliography
