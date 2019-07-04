@@ -77,13 +77,14 @@ GNU v3
 -   [x] AHP Support
 -   [ ] Markov DP Support
 -   [ ] Montecarlo simulation Support
--   [ ] Neutrosophic-Defeasible Inference System
+-   [ ] Neutrosophic-Defeasible-Doxatic Inference System
+-   [ ] FIPA adaptation
 -   [ ] Homeoestatic Motives system
 -   [ ] Well-being Tetraplet model synthesis system
--   [ ] Prefrontal-Cortex Meta-Reinforcement-Learning
--   [ ] Hierarchical Reinforcement Learning
--   [ ] Deep Reinforcement Learning
--   [ ] Ontologies system
+-   [ ] Prefrontal-Cortex Meta-Reinforcement-Learning Support
+-   [ ] Hierarchical Reinforcement Learning Support
+-   [ ] Deep Reinforcement Learning Support
+-   [ ] Ontologies system Support
 -   [ ] Auto Operation Research
 -   [ ] Auto Deep Reinforcement Learning
 
