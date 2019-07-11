@@ -70,6 +70,9 @@ GNU v3
 -   Error check: `npm run lint`
 -   Error fix:  `npm run lint` or `npm run lint -- --fix`
 
+## Package Papers
+[Gerpe P.J., Markopoulos E. (2020) Modeling Decision-Making with Intelligent Agents to Aid Rural Commuters in Developing Nations. In: Ahram T. (eds) Advances in Artificial Intelligence, Software and Systems Engineering. AHFE 2019. Advances in Intelligent Systems and Computing, vol 965.](https://link.springer.com/chapter/10.1007/978-3-030-20454-9_52 "Paper") 
+
 ## Package roadmap
 
 -   [x] Agent Entities
