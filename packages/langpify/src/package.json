@@ -1,0 +1,22 @@
+{
+    "name": "@aopfifyjs/langpify",
+    "version": "1.0.0",
+    "description": "Langpify module for my monorepo library",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "tsc",
+      "test": "jest"
+    },
+    "dependencies": {
+      "@aopifyjs/core": "^1.0.0",
+      "langchain": "^0.1.0"
+    },
+    "devDependencies": {
+      "typescript": "^5.0.0"
+    }
+  }
+  
