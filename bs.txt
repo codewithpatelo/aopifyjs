@@ -1,0 +1,63 @@
+Ver programacion  basada en eventos
+
+1. Ciclo de vida del agente
+Estos métodos gestionan el estado del agente y su interacción con el sistema:
+
+start(): Inicia el agente, lo pone en funcionamiento, y lo registra en el entorno o red.
+**stop() o kill(): Detiene el agente y lo elimina del sistema.
+pause() y resume(): Pausa y reanuda el ciclo de vida del agente.
+isAlive(): Verifica si el agente está activo o en ejecución.
+
+http://www.fipa.org/subgroups/ROFS-SG-docs/2007-TAAS-specifying-MAS.pdf
+https://fipa.org/specs/fipa00037/PC00037E.html
+2. Comunicación
+Los agentes se comunican entre sí mediante mensajes:
+
+sendMessage(to, message): Envía un mensaje a otro agente.
+receiveMessage(message): Procesa un mensaje recibido.
+broadcast(message): Envía un mensaje a todos los agentes del sistema.
+subscribe(topic): Suscribe al agente a un canal o tema de comunicación.
+publish(topic, message): Publica un mensaje en un canal o tema.
+3. Percepción del entorno
+Permiten que el agente perciba y actúe sobre su entorno:
+
+perceive(environment): Obtiene información del entorno (sensores, API, datos externos).
+reactToEvent(event): Maneja eventos específicos del entorno.
+getState(): Devuelve el estado actual del entorno percibido.
+4. Toma de decisiones
+El agente utiliza reglas, algoritmos o IA para decidir cómo actuar:
+
+decide(method, data): Utiliza un método específico (como AHP, TOPSIS, lógica difusa, etc.) para tomar decisiones.
+plan(goal): Genera un plan de acciones para alcanzar un objetivo.
+executePlan(plan): Ejecuta un plan previamente generado.
+evaluateOutcome(): Evalúa los resultados de las acciones ejecutadas.
+5. Aprendizaje
+Métodos que permiten al agente mejorar con el tiempo:
+
+learn(experience): Ajusta el comportamiento en función de experiencias pasadas.
+train(model, data): Entrena un modelo para mejorar las capacidades del agente.
+adaptToChanges(environment): Ajusta su comportamiento ante cambios en el entorno.
+6. Coordinación y colaboración
+Si los agentes trabajan juntos, pueden requerir métodos para coordinarse:
+
+negotiate(withAgent, proposal): Participa en una negociación con otro agente.
+formCoalition(partners): Forma coaliciones o equipos con otros agentes para objetivos comunes.
+shareKnowledge(data): Comparte conocimiento o datos con otros agentes.
+7. Gestión de eventos
+Métodos para manejar eventos internos y externos:
+
+onEvent(event, handler): Define un manejador para eventos específicos.
+triggerEvent(event, data): Genera un evento que puede ser manejado por el propio agente o por otros.
+logEvent(event): Registra eventos relevantes para futuras referencias.
+8. Persistencia y estado
+Gestión de memoria y almacenamiento:
+
+saveState(): Guarda el estado actual del agente.
+restoreState(savedState): Restaura el estado a partir de una instancia guardada.
+getInteractions(): Devuelve las interacciones registradas con otros agentes.
+9. Personalidad y comportamiento (Opcional)
+En sistemas avanzados, los agentes pueden tener "personalidades" o preferencias:
+
+setBehavior(behavior): Configura el comportamiento del agente.
+adjustBehavior(context): Ajusta el comportamiento según el contexto.
+getPreferences(): Devuelve las preferencias o restricciones del agente.

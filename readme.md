@@ -33,7 +33,7 @@ jorgito.start();
 juana.start();
 
 juana.listen({name: 'greeting'}, jorgito, () => { console.log('JUANA: Hi Jorgito')});
-jorgito.tell({name: 'greeting', msg: 'Hi Juana'}, juana);
+jorgito.inform({name: 'greeting', msg: 'Hi Juana'}, juana);
 
 jorgito.kill();
 juana.kill();
@@ -78,12 +78,15 @@ GNU v3
 -   [x] Agent Entities
 -   [x] TOPSIS Support
 -   [x] AHP Support
+-   [x] Typescript Types
+-   [x] FIPA adaptation I (Communication Acts)
+-   [ ] Transporters Support (WS, HTTP, SMS)
+-   [ ] Homeoestatic Motives system
+-   [ ] Library Modularization
 -   [ ] Markov DP Support
 -   [ ] Montecarlo simulation Support
 -   [ ] Neutrosophic-Defeasible Inference System
 -   [ ] Doxatic Logic BDI System
--   [ ] FIPA adaptation I (Communication Acts)
--   [ ] Homeoestatic Motives system
 -   [ ] Well-being Tetraplet model synthesis system
 -   [ ] Prefrontal-Cortex Meta-Reinforcement-Learning Support
 -   [ ] Motivational Profiles system (Intrinsic vs Extrinsic appreciation, %  of reward discounting, Cooperation vs Competition tendence)
@@ -92,6 +95,7 @@ GNU v3
 -   [ ] Deep Reinforcement Learning Support
 -   [ ] Ontologies system Support
 -   [ ] FIPA adaptation II (BDI + Propositional Acts)
+-   [ ] Planning 
 -   [ ] Auto Operation Research
 -   [ ] Auto Deep Reinforcement Learning
 -   [ ] Emotional Valence system
